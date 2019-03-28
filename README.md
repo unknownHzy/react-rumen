@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# 这是一个react入门项目
+### 这个工程主要涉及几个知识点
+1. React父子组件
+2. React父 -> 子 通信： 通过传递向子传递属性
+3. React子 -> 父 通信： 通过调用父组件传递给子的function
+4. 一些代码优化，包括在constructor中bind方法 （据说有性能优势）
+5. React中使用CSS修饰，比较好的是className 
+    还有一种是style={{background: red}} 外面{}代表JS表达式，里面{}代表是一个JS object
+    ```javascript 1.6
+    <button className='add-btn' onClick={this.handleBtnClick}>add</button>
+ 
+    还有是
+    <button sytle={{background: red}} onClick={this.handleBtnClick}>add</button>
+    ```
+
 ## Available Scripts
 
 In the project directory, you can run:
